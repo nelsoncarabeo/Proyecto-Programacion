@@ -6,6 +6,16 @@ body {
     height: 100vh;
 
 }
+img{
+    background-image: url(css/libreria.jpg);
+    background-size: cover;
+     width: 40%;
+     margin: 5 auto;
+     padding: 30px 80px 70px;
+  background-position: center;
+  border-top: #a2cf92;
+  display: block;
+    }
 
 .formulario{
     position: absolute;
@@ -96,6 +106,8 @@ input[type="submit"]{
     color:white;
     cursor: pointer;
     outline: none;
+    border-color: #3BCE00;
+}
 }
 
 input[type="submit"]:hover{
